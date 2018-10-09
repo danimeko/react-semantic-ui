@@ -16,7 +16,7 @@ export class NavigationHeader extends Component{
                 <Menu.Menu position="right">
                     <Menu.Item
                     name="home"
-                    active={activeItem = 'home'}
+                    active={activeItem === 'home'}
                     onClick={this.handelItemClick}
                     as = { Link }
                     to = '/'

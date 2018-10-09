@@ -3,7 +3,7 @@ import { Header , Divider , Label } from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
 import { Layout } from './layouts'
 
-const LandingPage = ()=>{
+const LandingPage = ()=>(
 <Layout>
     <div>
         <Divider hidden />
@@ -19,6 +19,7 @@ const LandingPage = ()=>{
                 You may sign up if not yet regestered
             </Label>
         </Link>
+        <Divider section hidden />
         <Link to="/signin">
             <Label as="a" color="teal" tag size="huge">
                 You may sign in if you are registered
@@ -26,6 +27,6 @@ const LandingPage = ()=>{
         </Link>
     </div>
 </Layout>
-}
+)
 
 export default LandingPage
