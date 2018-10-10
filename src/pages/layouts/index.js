@@ -11,7 +11,7 @@ export const Layout = ({ children })=>(
     </div>
 )
 
-Layout.PropTypes ={
+Layout.propTypes ={
     children: PropTypes.node.isRequired
 }
 
